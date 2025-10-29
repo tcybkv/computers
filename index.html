@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О персональном компьютере</title>
+    <link rel="stylesheet" href="assets/css/bundle.css">
+    <link rel="stylesheet" href="assets/fonts/Geometria/stylesheet.css">
+    <link rel="shortcut icon" href="assets/images/icon-favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu" id="menu" style="background-color: transparent; border: 2px solid rgba(8, 108, 249, 0.10); transition: 400ms">
+            <div class="container">
+                <div class="menu__inner">
+                    <a href="#main" class="menu__icon">
+                        <img src="assets/images/icon-menu.png" alt="icon">
+                    </a>
+                    <nav>
+                        <ul>
+                            <li><a href="#history">История</a></li>
+                            <li><a href="#components">Компоненты</a></li>
+                            <li><a href="#build">Сборка</a></li>
+                        </ul>
+                    </nav>
+                    <button class="button" id="open__modal">3D</button>
+                </div>
+            </div>
+        </div>
+        <div class="main" id="main">
+            <div class="container">
+                <div class="main__inner">
+                    <div class="main__text">
+                        <h1 class="header__first">О <b>ПК</b></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="history" id="history">
+            <div class="container">
+                <h2 class="header__second">История</h2>
+                <div class="history__inner">
+                    <div class="history__navigator">
+                        <div class="history__navigator__text">
+                            <div class="history__navigator__title history__navigator__title__active">XVII–XIX вв.</div>
+                            <div class="history__navigator__title">1940 г.</div>
+                            <div class="history__navigator__title">1950 г.</div>
+                            <div class="history__navigator__title">1960 г.</div>
+                            <div class="history__navigator__title">1970 г.</div>
+                            <div class="history__navigator__title">1980–2024 г.</div>
+                        </div>
+                    </div>
+                    <div class="history__image" id="XVII">
+                        <div class="history__image__text">
+                            <h3 class="header__third">Механические устройства</h3>
+                            <p>Разработка первых механических машин для вычислений — арифмометр Паскаля и машина Лейбница. Чарльз Бэббидж предложил концепцию аналитической машины, а Ада Лавлейс создала для неё первые алгоритмы.</p>
+                        </div>
+                    </div>
+                    <div class="history__image" id="forties">
+                        <div class="history__image__text">
+                            <h3 class="header__third">Первое поколение</h3>
+                            <p>ЭВМ на вакуумных лампах, такие как ENIAC (США) и БЭСМ (СССР). Эти машины были огромными, потребляли много энергии и программировались вручную с помощью переключателей.</p>
+                        </div>
+                    </div>
+                    <div class="history__image" id="fifties">
+                        <div class="history__image__text">
+                            <h3 class="header__third">Второе поколение</h3>
+                            <p>Появление транзисторов сделало ЭВМ компактнее, надёжнее и быстрее. Развиваются языки программирования высокого уровня, такие как FORTRAN и COBOL.</p>
+                        </div>
+                    </div>
+                    <div class="history__image" id="sixties">
+                        <div class="history__image__text">
+                            <h3 class="header__third">Третье поколение</h3>
+                            <p>Использование интегральных схем (ИС) позволило увеличить производительность и уменьшить стоимость машин. Появляются операционные системы и возможность многозадачности.</p>
+                        </div>
+                    </div>
+                    <div class="history__image" id="seventies">
+                        <div class="history__image__text">
+                            <h3 class="header__third">Четвёртое поколение</h3>
+                            <p>Разработка микропроцессоров привела к созданию персональных компьютеров (ПК). Компьютеры становятся доступными для широкого использования в науке, бизнесе и быту (например, Apple II, IBM PC).</p>
+                        </div>
+                    </div>
+                    <div class="history__image" id="eighties">
+                        <div class="history__image__text">
+                            <h3 class="header__third">Пятое поколение</h3>
+                            <p>Развитие суперкомпьютеров, искусственного интеллекта и нейронных сетей. Внедрение квантовых вычислений, облачных технологий и Интернета вещей (IoT).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="components" id="components">
+            <div class="container">
+                <h2 class="header__second">Компоненты</h2>
+                <div id="components__inner"></div>
+            </div>
+        </div>
+        <div class="build" id="build">
+            <div class="container">
+                <div class="build__inner">
+                    <h2 class="header__second">Сборка</h2>
+                    <iframe
+                        class="build__video"
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/GvyR_76qACg?si=OT0yDVR2DeaFoD7J"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="footer__items">
+                    <div class="footer__about__site">
+                        <a href="#" class="footer__icon">
+                            <img src="assets/images/icon-footer.png" alt="Icon" class="footer__icon"/>
+                        </a>
+                        <p class="footer__me">Сделано и разработано Тойчубеков Бакдоолотом 203-1-ПО</p>
+                    </div>
+                    <div class="footer__about">
+                        <div class="footer__item">
+                            <span class="footer__title">Навигации</span>
+                            <ul>
+                                <li>
+                                    <img src="assets/images/icon-arrow-right.png" alt="arrow">
+                                    <a href="#history">История</a>
+                                </li>
+                                <li>
+                                    <img src="assets/images/icon-arrow-right.png" alt="arrow">
+                                    <a href="#components">Компоненты</a>
+                                </li>
+                                <li>
+                                    <img src="assets/images/icon-arrow-right.png" alt="arrow">
+                                    <a href="#build">Сборка</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__line"></div>
+                <p class="footer__copyright"><a href="">&copy; 2024 Об компонентах системного блока</a></p>
+            </div>
+        </div>
+        <!-- Модальное окно -->
+        <div id="modal" class="modal">
+            <div class="modal__content">
+                <button class="close__btn" id="close__modal">&times;</button>
+                <iframe
+                        title="Gaming pc"
+                        src="https://sketchfab.com/models/acba6de09aa9486fa57ee5ae2052e1f6/embed?autostart=1"
+                        allow="autoplay; fullscreen; xr-spatial-tracking"
+                        style="display: block; width: 100%; height: 600px; border: none;"
+                ></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/components.js"></script>
+<script src="assets/js/modal.js"></script>
+</html>

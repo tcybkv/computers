@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О компоненте</title>
+    <link rel="stylesheet" href="../css/bundle.css">
+    <link rel="stylesheet" href="../fonts/Geometria/stylesheet.css">
+    <link rel="shortcut icon" href="../images/icon-favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu" id="menu">
+            <div class="container">
+                <div class="menu__inner">
+                    <a href="../../index.html" class="menu__icon">
+                        <img src="../images/icon-menu.png" alt="icon">
+                    </a>
+                    <nav>
+                        <ul>
+                            <li><a href="../../index.html#history">История</a></li>
+                            <li><a href="../../index.html#components">Компоненты</a></li>
+                            <li><a href="../../index.html#build">Сборка</a></li>
+                        </ul>
+                    </nav>
+                    <button class="button" id="open__modal">3D</button>
+                </div>
+            </div>
+        </div>
+        <div class="details">
+            <div class="container">
+                <div id="components__details" class="components__details__container"></div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="footer__items">
+                    <div class="footer__about__site">
+                        <a href="#" class="footer__icon">
+                            <img src="../images/icon-footer.png" alt="Icon" class="footer__icon"/>
+                        </a>
+                        <p class="footer__me">Сделано и разработано Тойчубеков Бакдоолотом 203-1-ПО</p>
+                    </div>
+                    <div class="footer__about">
+                        <div class="footer__item">
+                            <span class="footer__title">Навигации</span>
+                            <ul>
+                                <li>
+                                    <img src="../images/icon-arrow-right.png" alt="arrow">
+                                    <a href="../../index.html#history">История</a>
+                                </li>
+                                <li>
+                                    <img src="../images/icon-arrow-right.png" alt="arrow">
+                                    <a href="../../index.html#components">Компоненты</a>
+                                </li>
+                                <li>
+                                    <img src="../images/icon-arrow-right.png" alt="arrow">
+                                    <a href="../../index.html#build">Сборка</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__line"></div>
+                <p class="footer__copyright"><a href="">&copy; 2024 О персональном компьютере</a></p>
+            </div>
+        </div>
+        <!-- Модальное окно -->
+        <div id="modal" class="modal">
+            <div class="modal__content">
+                <button class="close__btn" id="close__modal">&times;</button>
+                <iframe
+                        title="Gaming pc"
+                        src="https://sketchfab.com/models/acba6de09aa9486fa57ee5ae2052e1f6/embed?autostart=1"
+                        allow="autoplay; fullscreen; xr-spatial-tracking"
+                        style="display: block; width: 100%; height: 600px; border: none;"
+                ></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../js/modal.js"></script>
+<script src="../js/components__details.js"></script>
+</html>
