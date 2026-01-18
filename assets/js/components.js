@@ -1,4 +1,4 @@
-fetch('/assets/data/components.json')
+fetch('https://raw.githubusercontent.com/tcybkv/computers/refs/heads/main/assets/data/components.json')
     .then(response => {
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
