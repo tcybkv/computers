@@ -1,7 +1,7 @@
 const params = new URLSearchParams(window.location.search);
 const componentId = params.get('id');
 
-fetch('/assets/data/components.json')
+fetch('https://raw.githubusercontent.com/tcybkv/computers/refs/heads/main/assets/data/components.json')
     .then(response => response.json())
     .then(data => {
         const component = data.components.find(item => item.id === componentId);
